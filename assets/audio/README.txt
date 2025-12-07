@@ -1,0 +1,1 @@
+Place your audio file here named "title.mp3" (ambient music for title screen). Audio plays only after user toggles the 🎵 button, compliant with browser policies.

@@ -1,0 +1,32 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bible Verse Memorization</title>
+    <meta name="description" content="A 3-stage Bible verse memorization game" />
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
+  <body class="bg">
+    <header class="topbar" role="banner">
+      <div class="row">
+        <img src="assets/images/icon-book.svg" alt="Bible" class="logo" />
+        <h1 id="gameTitle">Bible Verse Memorization</h1>
+      </div>
+      <div class="toolbar">
+        <button id="audioToggle" class="btn btn-ghost" aria-label="Toggle music">🎵 Off</button>
+        <button id="exitBtn" class="btn btn-ghost" aria-label="Exit to title">Exit</button>
+      </div>
+    </header>
+
+    <!-- Parallax container added -->
+    <main id="app" role="main" aria-live="polite" class="parallax"></main>
+
+    <div class="screen-flash" aria-hidden="true"></div>
+
+    <footer class="footer">Made with ❤️ — KJV verses (Public Domain). Graphics are placeholders. Add your art in <code>assets/</code>.</footer>
+
+    <script src="script/main.js"></script>
+  </body>
+</html>
